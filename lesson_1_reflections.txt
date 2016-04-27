@@ -1,0 +1,11 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing a diff between two versions allows you to see what has changed from the old and the new file. Doing this highlights some key areas to look to find out where the bugs may lie. This will help save time for when code becomes hundreds or thousands of lines instead of just a few pages of code.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to an entire file history could allow programmers to try out new code, and if it doesn't work, allow the programmer to easily revert back. When working teams, it would allow programmers to view changes done by others.
+
+3. How can you use the commands git log and git diff to view the history of files?
+
+Using git log, you can view the IDs and comments about what changed in each commit. You can then take two IDs and use git diff in order to see the details of what changed between two files.
