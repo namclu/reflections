@@ -5,28 +5,28 @@ Initializing a repository prepares that repository for version control. You need
 2. How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-Files that are ready to be commmited are sent to the Staging area. The working directory is the directory you're currently working on, with changes that may not have been committed to staging area. The repository contain files that have been committed to Git.
+Files that are ready to be commmited are sent to the Staging area. The working directory is the directory you're currently working on (which is usually your local directory) with changes that may not have been committed to staging area. The repository contain files that have been committed to Git.
 
 3. How can you use the staging area to make sure you have one commit per logical
 change?
 
-By doing a $ git status, Git will show what changes you've added to staging area so far.
+By doing a $ git status, Git will show what changes you've added to Staging area so far. This way, you can ensure which files you're committing, especially if you've made many changes and/or have been away from your computer for a while.
 
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-By creating branches, you can make changes to the file, without the fear of affecting the main branch. It would also help in collaboration as each collaborator can create their own branch, work on their part of the project, and check the changes back to the main branch when they're ready.
+By creating branches, you can make changes to the file, without the fear of affecting the master branch. It would also help in collaboration as each collaborator can create their own branch, work on their part of the project, and check the changes back to the master branch when they're ready.
 
 5. How do the diagrams help you visualize the branch structure?
 
-Diagrams help us see when branches were created and when they were merged with the main branch.
+Diagrams help us see where branches were created and how to navigate to them (if possible).
 
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 Merging two branches together joins work being done on a seperate branch into the main branch. The diagram helps to show where the branches and merges have occurred so we know where to revert changes when needed.
 
-7. What are the pros and cons of Git’s automatic merging vs. always doing merges
+7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
 Automatic merging ensures that the main branch is always up to date. However, being able to manually merge allows the user to specify when they are ready to check in their changes, which would be  at a logical stopping point. 
