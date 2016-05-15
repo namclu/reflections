@@ -5,3 +5,7 @@ A fork is a clone of another repository but cloned onto GitHub servers. You migh
 A clone is a copy of another repository, but copied onto the users local directory instead of GitHub servers. A clone is needed when you want to work on a project on your local machine.
 
 A branch is a split of a repository from the master branch. The purpose of a branch is to be able to work on code without making changes to a stable master branch. From a branch, you can also merge changes back into the master branch.
+
+2. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having the last known state of the remote stored locally provides Git with a reference on how to later merge any changes when the user wants to push their changes back into GitHub. It also allows the user to work remotely, and be able to execute commands such as $ git diff, $ git status, git log
