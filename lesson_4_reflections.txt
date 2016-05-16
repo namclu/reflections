@@ -8,4 +8,9 @@ A branch is a split of a repository from the master branch. The purpose of a bra
 
 2. What is the benefit of having a copy of the last known state of the remote stored locally?
 
-Having the last known state of the remote stored locally provides Git with a reference on how to later merge any changes when the user wants to push their changes back into GitHub. It also allows the user to work remotely, and be able to execute commands such as $ git diff, $ git status, git log
+Having the last known state of the remote stored locally provides Git with a reference on how to later merge any changes when the user wants to push their changes back into GitHub. It also allows the user to work remotely, and be able to execute commands such as $ git diff, $ git status, git log.
+
+3 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating w/o Git or GitHub would be very difficult. It would require the use of shared drives, naming coventions,  logs, communication , etc. to ensure that changes are syncronized, that there are no code conflicts. Basically, there would be lots of manual overhead. Learning Git and GitHub takes a bit of effort, but once you understand and start using it, programming life becomes much easier, especially when collaborating. 
+
