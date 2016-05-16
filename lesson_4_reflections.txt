@@ -14,3 +14,8 @@ Having the last known state of the remote stored locally provides Git with a ref
 
 Collaborating w/o Git or GitHub would be very difficult. It would require the use of shared drives, naming coventions,  logs, communication , etc. to ensure that changes are syncronized, that there are no code conflicts. Basically, there would be lots of manual overhead. Learning Git and GitHub takes a bit of effort, but once you understand and start using it, programming life becomes much easier, especially when collaborating. 
 
+4. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+It's wise to make changes on a separate branch for things such as new features or to try an experiment. That way, if the new code doesn't work out, you can simply delete that branch and there was effect to the master branch. Creating a separate branch is also good when collaborating because it would allow team members to review and comment on changes before it made its way into the master branch.
+
+Where you might want to work directly on the master branch is when something you know will appear in master is being done, such as a bug fix. This way, it's easier to ensure the fix will be propagated through master branch. However, it would still be good to create a separate branchfor bug fixes as you would want to test before pulling the fix into master.
